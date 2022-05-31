@@ -9,10 +9,8 @@ Z = 0
 print("Ingrese números")
 while Z < 500:
     A = Z
-
     Z = int(input(" >> "))
-    assert isinstance(Z, int) and Z < 500, "Qué poco emocionante lo tuyo..."
-
+    assert Z <= 500, "Qué poco emocionante lo tuyo..."
     Z += A
     C += 1
 

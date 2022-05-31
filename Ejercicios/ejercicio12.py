@@ -10,7 +10,6 @@ C = 0 # ceros
 print("Ingrese números:")
 for i in range(10):
     X = int(input(" >> "))
-    assert isinstance(X, int), "Ups... tipo de número inválido..."
 
     if X > 0:
         P += 1
@@ -19,4 +18,4 @@ for i in range(10):
     else:
         C += 1
 
-print(f"Se ingresaron {C} C,\n\t      {P} números P\n\t    y {N} números N.")
+print(f"Se ingresaron {C} ceros,\n\t      {P} números positivos\n\t    y {N} números negativos.")
